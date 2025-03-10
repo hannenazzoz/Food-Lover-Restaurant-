@@ -191,12 +191,10 @@ header li:hover::after {
 #about img{
 display: none;
 }
-/* #about .container{
-    max-width:376px;
-} */
+
 
 #about{
-    /* max-height: 75vh; */
+
      padding-bottom: 16px;
  }
  
@@ -234,9 +232,7 @@ display: none;
 /* End About */
 /* Start OFFERS*/
 @media(max-width:767px){
-    /* #off .container{
-        max-width: 379px;
-    } */
+
     #off .content{
 flex-direction: column;
     }
@@ -282,9 +278,6 @@ to{
 }
 /* Start Menu */
 @media(max-width:767px){
-    /* #menu .container{
-        max-width: 369px;
-    } */
     #menu .content{
         grid-template-columns: minmax(367px, 1fr)!important;
       
@@ -540,6 +533,7 @@ font-size: 14px;}
 @media(max-width:767px){
     footer{
        height: fit-content;
+       padding-bottom: 1px;
     }
     footer .items  {
         flex-direction: column;
